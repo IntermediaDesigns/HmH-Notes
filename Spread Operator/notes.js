@@ -1,4 +1,4 @@
-//Spread Operator (...): The spread operator in JavaScript is used to expand iterable elements into individual elements. It’s commonly used with arrays and objects1.
+//Spread Operator (...): The spread operator in JavaScript is used to expand iterable elements into individual elements. It’s commonly used with arrays and objects.
 //Example:
 
 const arr1 = [1, 2, 3];
