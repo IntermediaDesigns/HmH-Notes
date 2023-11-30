@@ -21,6 +21,7 @@ export default function Home() {
     // i need to update box state
     // i want all the old boxes minus the box we clicked on
     const oldBoxes = boxes.filter((_box) => _box.id !== box.id);
+    
     const updatedBox = { ...box };
     if (isPlayer1Turn) {
       updatedBox.mark = "X";
@@ -36,12 +37,15 @@ export default function Home() {
       {boxes
         .sort((a, b) => (a.id > b.id ? 1 : -1))
         .map((box) => {
+          
           return (
             <div onClick={() => handleClick(box)} className="box" key={box.id}>
               {box.mark}
             </div>
           );
+
         })}
+
     </div>
   );
 }
