@@ -4,7 +4,7 @@
 
 // Use fetch in getServerSideProps or getStaticProps You can use fetch in getServerSideProps or getStaticProps to fetch data at build time or on each request.
 
-export async function getServerSideProps(context) {
+export default async function getServerSideProps(context) {
        const res = await fetch(`https://api.example.com/data`);
        const data = await res.json();
      

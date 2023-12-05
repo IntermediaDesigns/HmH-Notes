@@ -40,7 +40,7 @@ The POST method sends data to the server and creates a new resource. The resourc
 
     In short, this method is used to create a new data entry.
 
-In web services, POST requests are used to send data to the API sever to create or udpate a resource. The data sent to the server is stored in the request body of the HTTP request.
+In web services, POST requests are used to send data to the API sever to create or update a resource. The data sent to the server is stored in the request body of the HTTP request.
 
 The simplest example is a contact form on a website. When we fill out the inputs in a form and hit Send, that data is put in the response body of the request and sent to the server. This may be JSON, XML, or query parameters (there’s plenty of other formats, but these are the most common).
 
